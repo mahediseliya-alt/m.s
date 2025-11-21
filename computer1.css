@@ -1,0 +1,151 @@
+.menu{ position: fixed; top: 0; width: 100%; z-index: 9;
+    left: 0; 
+  
+    right: 0; transition: all 0.5s;
+   }
+.menu-scrolled{ box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
+ background: rgba(34, 34, 34, 0.9);
+transition: all 0.5s;}
+.menu i{color: rgb(42, 165, 42); font-size:  25px !important;}
+.menu a{font-size: 25px; color: #ffffff !important; }
+  
+.one img{width: 1130px; height: 300px; border-radius: 10px;}
+.tow img{width: 560px; height: 300px;border-radius: 10px;}
+
+
+
+.pp p{color: #ffffff;font-size: small; padding-top: 1vmin;}
+.pp h4{color: white; padding-top: 5vmin;}
+
+
+
+h2{padding-top: 5vmin; color: #ffffff;}
+
+
+
+
+
+.hover{
+  img {
+  transition: 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+}
+
+
+
+.sec{color:#fff; padding-top: 100px; background-color: #4d4f50;}
+.sec h5{color: #0ae602;}
+
+
+
+/* ================= MEDIA QUERIES ================= */
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .menu a {
+    font-size: 20px;
+  }
+  .menu i {
+    font-size: 22px !important;
+  }
+
+  .one img,
+  .tow img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .pp h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .pp p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+
+/* Mobiles (max-width: 767px) */
+@media (max-width: 767px) {
+  .menu a {
+    font-size: 16px;
+  }
+  .menu i {
+    font-size: 18px !important;
+  }
+
+  .carousel img {
+    height: auto !important;
+    max-height: 250px;
+    object-fit: cover;
+  }
+
+  .one img,
+  .tow img {
+    /* width: 100% !important; */
+    height: auto !important;
+  }
+
+  .pp h4 {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .pp p {
+    font-size: 13px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  footer .sec {
+    padding: 30px 15px;
+    text-align: center;
+  }
+  footer .sec h5 {
+    margin-top: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
